@@ -1,0 +1,40 @@
+Apresente os resultados ordenando os jogadores utilizando os seguintes critérios:
+
+Maior número de vitórias primeiro;
+Maior número de pontos;
+Ordem alfabética (do A para o Z).
+Apenas se o critério 1 for igual, é que o critério 2 deve ser utilizado, e no caso de ambos os critérios 1 e 2 serem iguais, então o critério 3 deve ser utilizado.
+
+Exemplo:
+
+Entrada:
+
+Pierre Zimmermann
+Piotr Gawrys
+Michal Klukowski
+Bauke Muller
+
+Pierre Zimmermann:8
+Piotr Gawrys:6
+Michal Klukowski:14
+Bauke Muller:7
+
+Pierre Zimmermann:1
+Piotr Gawrys:2
+Michal Klukowski:3
+Bauke Muller:4
+
+Pierre Zimmermann:4
+Piotr Gawrys:5
+Michal Klukowski:6
+Bauke Muller:3
+
+
+Saída:
+
+1. Michal Klukowski - 23 pontos, 2 vitorias.
+2. Bauke Muller - 14 pontos, 1 vitorias.
+3. Pierre Zimmermann - 13 pontos, 0 vitorias.
+4. Piotr Gawrys - 13 pontos, 0 vitorias.
+
+Explicação: o primeiro jogador é Michal Klukowski dado que tem 2 vitórias, sendo o segundo o Bauke Muller com uma vitória. No entanto para o 3º e 4º lugares, ambos têm 0 vitórias. Utilizamos o segundo critério, o número de pontos. No entanto, neste caso o número de pontos é também igual. Assim, conta a ordem alfabética. Como os nomes diferem apenas na terceira letra, é apresentado Pierre antes de Piotr, já que a letra E vem antes da letra O no alfabeto.

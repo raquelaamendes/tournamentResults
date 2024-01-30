@@ -1,0 +1,19 @@
+Pierre Zimmermann
+Piotr Gawrys
+Michal Klukowski
+Bauke Muller
+
+Pierre Zimmermann:8
+Piotr Gawrys:6
+Michal Klukowski:14
+Bauke Muller:7
+
+Pierre Zimmermann:1
+Piotr Gawrys:2
+Michal Klukowski:3
+Bauke Muller:4
+
+Pierre Zimmermann:4
+Piotr Gawrys:5
+Michal Klukowski:6
+Bauke Muller:3
